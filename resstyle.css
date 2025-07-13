@@ -273,3 +273,15 @@ body,html {
   color: white;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 16px;
+    padding: 6px 12px;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 8px auto;
+    text-align: center;
+  }
+}
